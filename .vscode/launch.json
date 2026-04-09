@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Proxy: start Flask server",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/proxy.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "env": { "FLASK_ENV": "development" }
+    },
+    {
+      "name": "Detector: self-test",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/detector.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Benchmark: precision/recall/F1",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/benchmark.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

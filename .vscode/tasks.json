@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Proxy: install dependencies",
+      "type": "shell",
+      "command": "python -m pip install -r requirements.txt",
+      "group": "build"
+    },
+    {
+      "label": "Proxy: run Flask server",
+      "type": "shell",
+      "command": "python proxy.py",
+      "isBackground": true,
+      "group": { "kind": "test", "isDefault": true }
+    },
+    {
+      "label": "Proxy: run benchmark",
+      "type": "shell",
+      "command": "python benchmark.py",
+      "group": "test"
+    }
+  ]
+}
