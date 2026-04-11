@@ -7,7 +7,7 @@ Routes:
   GET  /stats     - lifetime counters
   POST /batch     - JSON API: {"texts": [...]} -> list of results
 
-Author: Adithya Vasamsetti (CyberEnthusiastic)
+Author: Mohith Vasamsetti (CyberEnthusiastic)
 """
 import json
 import time

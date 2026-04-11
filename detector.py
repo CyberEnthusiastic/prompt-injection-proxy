@@ -9,7 +9,7 @@ Combines three signals into a 0-1 risk score:
 If sklearn isn't installed, the detector falls back to heuristics-only mode
 and still works end-to-end.
 
-Author: Adithya Vasamsetti (CyberEnthusiastic)
+Author: Mohith Vasamsetti (CyberEnthusiastic)
 """
 import re
 import math
